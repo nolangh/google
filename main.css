@@ -21,11 +21,11 @@ li {
   list-style: none;
 }
 
-.left {
+#left {
   float: left;
 }
 
-.right {
+#right {
   float: right;
 }
 /* ---------------------------------- MAIN ---------------------------------- */
@@ -37,7 +37,6 @@ li {
 
 footer {
   bottom: 0;
-
   background-color: aqua;
   bottom: 0;
   width: 100%;
