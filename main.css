@@ -1,3 +1,11 @@
+/*TODO add images for .right a tags*/
+/*TODO fix text decoration on all a tags*/
+/*TODO  adjust nav margins*/
+/*TODO figure out why header is not showing*/
+/*TODO add input field */
+/*TODO center Google Logo*/
+/*TODO fix footer*/
+
 * {
   margin: 0;
   padding: 0;
@@ -10,15 +18,18 @@ body {
   width: 100vw;
   overflow: hidden;
 }
-/* --------------------------------- HEADER --------------------------------- */
-.nav {
+/* --------------------------------- HEADER/NAV --------------------------------- */
+
+nav {
+  overflow: hidden;
+  width: 100%;
+}
+
+.header {
   top: 0;
   background-color: orange;
   overflow: hidden;
-}
-
-li {
-  list-style: none;
+  width: 100%;
 }
 
 #left {
