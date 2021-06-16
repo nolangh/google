@@ -28,7 +28,6 @@ nav {
 
 .header {
   top: 0;
-  display: flex;
   flex-direction: row;
   align-items: stretch;
   background-color: orange;
@@ -39,10 +38,12 @@ nav {
 
 #left {
   float: left;
+  height: 100%;
 }
 
 #right {
   float: right;
+  height: 100%;
 }
 
 /* ----------------------------- PROFILE PIC ---------------------------- */
