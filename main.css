@@ -22,7 +22,7 @@ body {
 
 nav {
   overflow: hidden;
-  width: 100%;
+  width: 100vw;
 }
 
 .header {
@@ -38,6 +38,13 @@ nav {
 
 #right {
   float: right;
+}
+
+/* ----------------------------- PROFILE PIC ---------------------------- */
+.profilePicture {
+  width: 32px;
+  height: 32px;
+  background-image: url(profilePicture.jpg);
 }
 /* ---------------------------------- MAIN ---------------------------------- */
 
