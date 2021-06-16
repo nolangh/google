@@ -9,6 +9,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -22,13 +23,17 @@ body {
 
 nav {
   overflow: hidden;
-  width: 100vw;
+  width: 100%;
 }
 
 .header {
   top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
   background-color: orange;
   overflow: hidden;
+  height: 48px;
   width: 100%;
 }
 
@@ -44,15 +49,17 @@ nav {
 .profilePicture {
   width: 32px;
   height: 32px;
-  background-image: url(profilePicture.jpg);
 }
 /* ---------------------------------- MAIN ---------------------------------- */
 
 .banner {
   height: 100vh;
   width: 100%;
+  object-fit: contain;
+  object-position: center bottom;
 }
 
+/* --------------------------------- Footer --------------------------------- */
 footer {
   bottom: 0;
   background-color: aqua;
