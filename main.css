@@ -1,11 +1,3 @@
-/* TODO add images for .right a tags */
-/* TODO fix text decoration on all a tags */
-/* TODO  adjust nav margins */
-/* TODO figure out why header is not showing */
-/* TODO add input field */
-/* TODO center Google Logo */
-/* TODO fix footer */
-
 * {
   margin: 0;
   padding: 0;
@@ -13,58 +5,40 @@
 }
 
 body {
-  background-color: #fff;
   color: black;
-  height: 100vh;
-  width: 100vw;
+  background-color: white;
   overflow: hidden;
 }
-/* --------------------------------- HEADER/NAV --------------------------------- */
+
+header {
+  overflow: hidden;
+  width: 100vw;
+  height: 48px;
+}
 
 nav {
-  overflow: hidden;
   width: 100%;
-}
-
-.header {
-  top: 0;
-  flex-direction: row;
-  align-items: stretch;
-  background-color: orange;
-  overflow: hidden;
   height: 48px;
-  width: 100%;
+  background-color: aquamarine;
 }
 
-#left {
+.left {
   float: left;
-  height: 100%;
 }
 
-#right {
+.right {
   float: right;
-  height: 100%;
 }
 
-/* ----------------------------- PROFILE PIC ---------------------------- */
-.profilePicture {
+#propick {
   width: 32px;
   height: 32px;
 }
-/* ---------------------------------- MAIN ---------------------------------- */
 
-.banner {
-  height: 100vh;
-  width: 100%;
-  object-fit: contain;
-  object-position: center bottom;
+#logo {
+  align-items: center;
 }
 
-/* --------------------------------- Footer --------------------------------- */
-footer {
-  bottom: 0;
-  background-color: aqua;
-  bottom: 0;
-  width: 100%;
-  height: 20px;
+#searchBox {
+  border-radius: 10px;
 }
