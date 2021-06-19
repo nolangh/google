@@ -13,30 +13,34 @@ body {
 header {
   width: 100%;
   height: 48px;
-  display: flex;
   overflow: hidden;
-  background-color: salmon;
-
 }
 
- /*nav {
+nav {
   width: 100%;
   height: 48px;
-  display: flex;
   overflow: hidden;
   background-color: salmon;
-} */
+}
 
-header a {
+ul a,
+li {
   text-decoration: none;
+  list-style-type: none;
 }
 
-header .leftNav {
-  justify-content: flex-start;
+ul {
+  display: flex;
 }
 
-header .rightNav {
-  justify-content: flex-end;
+#leftNav {
+  display: flex;
+  flex-direction: row;
+}
+
+#rightNav {
+  display: flex;
+  flex-direction: row;
 }
 
 #propick {
