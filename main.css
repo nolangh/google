@@ -17,17 +17,24 @@ header {
 }
 
 nav {
-  width: 100%;
+  width: 100vw;
   height: 48px;
-  background-color: aquamarine;
+  display: flex;
+  overflow: hidden;
+  background-color: salmon;
+}
+
+nav a {
+  text-decoration: none;
+  
 }
 
 .leftNav {
-  float: left;
+  justify-content: flex-start;
 }
 
 .rightNav {
-  float: right;
+  justify-content: flex-end;
 }
 
 #propick {
