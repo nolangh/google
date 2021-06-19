@@ -11,29 +11,31 @@ body {
 }
 
 header {
-  overflow: hidden;
-  width: 100vw;
-  height: 48px;
-}
-
-nav {
-  width: 100vw;
+  width: 100%;
   height: 48px;
   display: flex;
   overflow: hidden;
   background-color: salmon;
+
 }
 
-nav a {
+ /*nav {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  overflow: hidden;
+  background-color: salmon;
+} */
+
+header a {
   text-decoration: none;
-  
 }
 
-.leftNav {
+header .leftNav {
   justify-content: flex-start;
 }
 
-.rightNav {
+header .rightNav {
   justify-content: flex-end;
 }
 
