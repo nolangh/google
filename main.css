@@ -22,17 +22,18 @@ nav {
   background-color: aquamarine;
 }
 
-.left {
+.leftNav {
   float: left;
 }
 
-.right {
+.rightNav {
   float: right;
 }
 
 #propick {
   width: 32px;
   height: 32px;
+  border-radius: 50%;
 }
 
 /*NOTE anyhting below this is just a placeholde for later */
