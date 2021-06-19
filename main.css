@@ -5,42 +5,49 @@
 }
 
 body {
+  height: 100vh;
   color: black;
   background-color: white;
-  overflow: hidden;
 }
 
 header {
-  width: 100%;
+  width: 100vw;
   height: 48px;
   overflow: hidden;
 }
 
 nav {
-  width: 100%;
+  width: 100vw;
   height: 48px;
   overflow: hidden;
-  background-color: salmon;
 }
 
-ul a,
-li {
+ul li,
+a {
   text-decoration: none;
   list-style-type: none;
+  color: black;
 }
 
 ul {
+  width: 100%;
   display: flex;
+  align-items: center;
+  height: 100%;
 }
 
-#leftNav {
-  display: flex;
-  flex-direction: row;
+.leftNav li {
+  padding: 5px;
+  margin: 0 5px;
 }
 
-#rightNav {
-  display: flex;
-  flex-direction: row;
+#navRight {
+  justify-content: flex-end;
+}
+
+#navRight li {
+  padding: 5px;
+  margin: 0 5px;
 }
 
 #propick {
@@ -48,12 +55,5 @@ ul {
   height: 32px;
   border-radius: 50%;
 }
-
+/* ----------------------------- END NAVIGATION ----------------------------- */
 /*NOTE anyhting below this is just a placeholde for later */
-#logo {
-  align-items: center;
-}
-
-#searchBox {
-  border-radius: 10px;
-}
