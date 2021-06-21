@@ -1,7 +1,9 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-appearance: none;
   box-sizing: border-box;
+  -moz-appearance: none;
 }
 
 body {
@@ -56,4 +58,8 @@ ul {
   border-radius: 50%;
 }
 /* ----------------------------- END NAVIGATION ----------------------------- */
-/*NOTE anyhting below this is just a placeholde for later */
+/* ------------------------------ BANNER IMAGE ------------------------------ */
+/* ------------------------------- SEARCH BOX ------------------------------- */
+/* ---------------------- SEARCH BUTTONS/FEELING LUCKY ---------------------- */
+/* --------------------------------- FOOTER --------------------------------- */
+
